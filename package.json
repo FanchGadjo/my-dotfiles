@@ -1,0 +1,22 @@
+{
+  "name": "my-dotfiles",
+  "version": "1.0.0",
+  "description": "Enabling versioning for my linux configuration files (dotfiles)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FanchGadjo/my-dotfiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FanchGadjo/my-dotfiles/issues"
+  },
+  "homepage": "https://github.com/FanchGadjo/my-dotfiles#readme",
+  "dependencies": {
+    "themer": "^3.3.1"
+  }
+}
