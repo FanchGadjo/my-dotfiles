@@ -4,7 +4,8 @@
   "description": "Enabling versioning for my linux configuration files (dotfiles)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "themer -c themer-colors-rivet -t themer-gnome-terminal -t themer-vscode -t themer-slack -t themer-chrome -o gen"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/FanchGadjo/my-dotfiles#readme",
   "dependencies": {
-    "themer": "^3.3.1"
+    "themer": "^3.3.1",
+    "themer-chrome": "^1.2.1",
+    "themer-colors-rivet": "^1.0.0",
+    "themer-gnome-terminal": "^1.0.1",
+    "themer-slack": "^2.1.0",
+    "themer-vscode": "^2.2.1"
   }
 }
