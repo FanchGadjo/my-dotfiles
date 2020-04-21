@@ -11,7 +11,7 @@ groups
 
 ```
 sudo apt install -y chromium
-sudo apt install -y tree git git-flow gitg
+sudo apt install -y tree git git-flow gitg git-extras
 sudo apt install -y default-jre default-jdk
 sudo apt -y install unzip
 sudo apt -y install wget curl httpie
