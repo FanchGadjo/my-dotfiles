@@ -120,6 +120,7 @@ source $ZSH/oh-my-zsh.sh
 alias fromscratch='~/env/FromScratch.1.4.3.AppImage'
 alias mkcd='foo(){ mkdir -pv "$1"; cd "$1" }; foo '
 alias code='codium'
+alias gllg='git log --decorate --pretty=format:"%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(13,ltrunc)%ad %C(auto,green)%<(12,trunc) %aN %C(auto,reset)%<(60,trunc)%s%C(auto,red)% gD% D" --date=relative'
 
 function gclocd {
   # git clone and enter the cloned file
