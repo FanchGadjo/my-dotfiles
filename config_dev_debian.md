@@ -111,3 +111,13 @@ python3 -m pip install --user "molecule[lint]"
 python3 -m pip install --user "docker-py"
 ```
 https://molecule.readthedocs.io/en/latest/installation.html
+
+### Ruby
+Install Ruby through RVM (Ruby Version Manager)
+
+https://rvm.io/
+
+Then run `rvm requirements` on debian to avoid using sudo. Add gen home to dotfile : `export GEM_HOME="$HOME/.gem"`
+
+https://stackoverflow.com/a/53949737/12051588
+
